@@ -1,0 +1,25 @@
+
+.subtitle {
+  color: whitesmoke;
+  bottom: 30%;
+  left: 50%;
+  font-weight: bold;
+  animation: animacionInv 14s ease-in-out forwards infinite;
+}
+@keyframes animacionInv {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  10% {
+    
+    transform: translateX(-1%);
+  }
+  15% {
+    transform: translateX(5px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
