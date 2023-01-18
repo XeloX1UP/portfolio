@@ -24,7 +24,7 @@ const PImages = (Props: PImagesProps): JSX.Element => {
   }, [index])
   
   return (
-    <Image src={image[index]} alt={title} fill objectFit="cover"/>
+    <Image src={image[index]} alt={title} fill style={{objectFit: 'cover'}} />
   )
 }
 export default PImages
