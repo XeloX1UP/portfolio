@@ -17,7 +17,7 @@ const TextScroller: React.FC<Props> = () => {
     if (index >= parrafos.length) setIndex(0)
     setTimeout(()=>{
       setIndex(index + 1)
-    }, 14000)
+    }, 20000)
   }, [index])
   return (
     <div className="container">

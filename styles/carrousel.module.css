@@ -4,7 +4,7 @@
   bottom: 30%;
   left: 50%;
   font-weight: bold;
-  animation: animacionInv 14s ease-in-out forwards infinite;
+  animation: animacionInv 20s ease-in-out forwards infinite;
 }
 @keyframes animacionInv {
   0% {
