@@ -19,7 +19,7 @@ const Projects = (Props: ProjectsProps): JSX.Element => {
   return (
     <div>
       <div>
-        <h1 className="title has-text-centered is-size-1 my-2">Mi portafólio</h1>
+        <h1 className="title has-text-centered is-size-1 my-2">Mi portafolio</h1>
       </div>
       <div>
         <h3 className="subtitle has-text-centered is-size-3 my-2">Estos proyectos fueron creados principalmente con NodeJS, HTML, JavaScript, TypeScript y CSS a modo de práctica y no se encuentran 'en línea'.</h3>
