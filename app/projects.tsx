@@ -7,7 +7,8 @@ type Project = {
   img: StaticImageData[],
   title: string,
   desc: React.ReactNode,
-  link: string
+  link: string,
+  disabled: boolean
 }
 interface ProjectsProps {
   project: Project[]
@@ -26,7 +27,7 @@ const Projects = (Props: ProjectsProps): JSX.Element => {
       <div className={style.projects}>
         {project.map((item, index)=> (
           <div key={index}>
-            <Card img={item.img} title={item.title} desc={item.desc} link={item.link} />
+            <Card img={item.img} title={item.title} desc={item.desc} link={item.link} disabled={item.disabled} />
           </div>
         ))}
       </div>

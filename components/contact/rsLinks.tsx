@@ -9,7 +9,7 @@ interface RsLinksProps {
 const RsLinks = (Props: RsLinksProps): JSX.Element => {
   const { link, text, image } = Props
   return (
-    <div>
+    <div style={{display: 'flex', flexFlow: 'row nowrap', alignItems: 'center', justifyContent: 'flex-end'}}>
       <Link target={"_blank"} className={`${style.link} is-size-5`} href={link} >{text}<Image src={image} alt={text} width={25} height={25} /></Link>
     </div>
   )

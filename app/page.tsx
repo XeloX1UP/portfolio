@@ -12,7 +12,7 @@ export default function landingPage(){
       <section id="proyectos" style={{marginTop: '100px'}}>
         <Projects project={proyectos}/>
       </section>
-      <section>
+      <section id="contacto">
         <Contact />
       </section>
     </div>

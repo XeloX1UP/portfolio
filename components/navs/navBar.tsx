@@ -22,9 +22,9 @@ export default function NavBar () {
           <Link className={`navbar-item `} href='/'>
             Inicio
           </Link>
-          <Link href='/' className="navbar-item">
+          <a href='#contacto' className="navbar-item">
             Contáctame
-          </Link>
+          </a>
         </div>
         <div className="navbar-end">
           

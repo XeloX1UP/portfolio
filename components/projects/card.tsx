@@ -1,4 +1,4 @@
-import { StaticImageData } from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
 import styles from './card.module.css'
@@ -8,10 +8,11 @@ interface CardProps {
   img: StaticImageData[],
   title: string,
   desc: React.ReactNode,
-  link: string
+  link: string,
+  disabled: boolean
 }
 const Card = (Props: CardProps): JSX.Element => {
-  const {img, title, link, desc}: CardProps = Props
+  const {img, title, link, desc, disabled}: CardProps = Props
 
 
   return (
@@ -24,7 +25,7 @@ const Card = (Props: CardProps): JSX.Element => {
           <h1 className={`is-size-2 ${styles.title}`}>{title}</h1>
           <div className={styles['link-container']}>
             <p className={`is-size-6 ${styles.subtitle}`}>{desc}</p>
-            <Link className={`${styles.link} button is-info`} href={link} >Ver más</Link>
+            <Link className={`${styles.link} button ${disabled ? 'is-static' : 'is-link'} is-responsive is-rounded`} href={link} target={"_blank"} >Ver código</Link>
           </div>
         </div>
         
