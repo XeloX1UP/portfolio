@@ -47,7 +47,7 @@ const proyectos: Project[] = [
   {
     img: images.store,
     title: 'Tienda web',
-    desc: <>Tienda básica donde se pueden <strong>crear</strong>, <strong>editar</strong> y <strong>eliminar productos</strong> y <strong>categorías</strong>. <br/>Desarrollada con <strong>Next JS v16</strong> y <strong>MongoDB</strong></>,
+    desc: <>Tienda básica donde se pueden <strong>crear</strong>, <strong>editar</strong> y <strong>eliminar productos</strong> y <strong>categorías</strong>. <br/>Desarrollada con <strong>Next JS v13</strong> y <strong>MongoDB</strong></>,
     link: 'https://github.com/XeloX1UP/x1up',
     disabled: false
   }
