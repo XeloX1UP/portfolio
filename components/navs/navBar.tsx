@@ -32,7 +32,12 @@ export default function NavBar () {
           </a>
         </div>
         <div className="navbar-end">
-          
+          <div className="navbar-item">
+            <div className="buttons">
+              <Link href={'https://www.linkedin.com/in/eduardo-moncada-lillo-25b336225/'} target={'_blank'} className='button is-link is-outlined' >Linked In</Link>
+              <Link href={'mailto:monk.da15@gmail.com?Subject=Quiero%20saber%20mas%20sobre%20tu%20trabajo'} target={'_blank'} className='button is-danger is-outlined' >Enviar e-mail</Link>
+            </div>
+          </div>
         </div>
       </div>
     </nav>

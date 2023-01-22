@@ -18,7 +18,7 @@ const Contact = (): JSX.Element => {
           </ul>
         </div>
         <div className="email">
-          <h2><RsLinks link='https://wa.me/56933278825?text=Hola%20quiero%20saber%20mas%20sobre%20tu%20trabajo' text='Envíame un correo' image={email} /></h2>
+          <h2><RsLinks link='mailto:monk.da15@gmail.com?Subject=Quiero%20saber%20mas%20sobre%20tu%20trabajo' text='Envíame un correo' image={email} /></h2>
         </div>
       </div>
     </div>
